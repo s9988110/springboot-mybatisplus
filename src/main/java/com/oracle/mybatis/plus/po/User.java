@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @TableName(value = "`user`")
 public class User implements Serializable {
+
     @TableId(value = "id", type = IdType.INPUT)
     private String id;
 
