@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Import;
 @MapperScan("com.oracle.mybatis.plus.mapper")
 //@Import(MybatisPlusConfig.class)
 public class App {
-
     public static void main(String[] args) {
         SpringApplication.run(App.class,args);
     }
